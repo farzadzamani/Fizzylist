@@ -1,4 +1,6 @@
-# Pre-work - Fizzy List ![ic_launcher](https://cloud.githubusercontent.com/assets/4177299/23328042/bedb4128-facd-11e6-8091-126f33344362.png)
+![ic_launcher](https://cloud.githubusercontent.com/assets/4177299/23328058/ef5e2aa4-facd-11e6-9a46-3c885e23ed81.png)
+# Pre-work - Fizzy List 
+
 Fizzy List is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing Scheduling and deleting an existing item.
 
 Submitted by: Farzad Zamani
