@@ -36,7 +36,7 @@ Time spent: 32 hours spent in total
 
 Here's a walkthrough of implemented user stories:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/qEtEi"><a href="//imgur.com/qEtEi"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![fizzylist1](https://cloud.githubusercontent.com/assets/4177299/23328553/9a2cc594-fad8-11e6-84c3-619cd143b7cc.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
