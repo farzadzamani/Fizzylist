@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cbccd1</color>
+    <color name="colorPrimaryDark">#8d8d8d</color>
+    <color name="colorAccent">#d0d0d0</color>
+
+    <!--<color name="colorhighpriority">#55aefc</color>-->
+    <!--<color name="colormediumpriority">#9feaff</color>-->
+    <!--<color name="colorlowpriority">#bbecfa</color>-->
+
+    <color name="colorhighpriority">#c4219e</color>
+    <color name="colormediumpriority">#e4b254</color>
+    <color name="colorlowpriority">#fba0ceec</color>
+
+
+    <color name="colordonestatus">#fff</color>
+    <color name="colortaskdone">#0696d9</color>
+    <color name="colorlblnewtaskform">#d20356</color>
+    <color name="coloretnewtaskform">#363535</color>
+
+     <color name="colorlistviewtext">#ffffff</color>
+    <color name="controlNormal">#ffffff</color>
+    <color name="controlActivated">#ffffff</color>
+    <color name="primary_text_material_light">#7e1ea1</color>
+    <color name="secondary_text_material_light">#8affffff</color>
+    <color name="primary_text_material_dark">#0b0b0b</color>
+
+
+    <color name="colorbackground">#b7b7b7</color>
+    <color name="tab_indicator_text">#ffffff</color>
+
+    <color name="textcolorsecondary">#0b0b0b</color>
+    <color name="primary_material_dark_1">#ffffff</color>
+</resources>

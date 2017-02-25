@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Fizzy List</string>
+    <string name="highpriority">High</string>
+    <string name="normalpriority">Normal</string>
+    <string name="lowpriority">Low</string>
+
+    <!--NEW TASK FORM-->
+    <string name="newtask_title">Task</string>
+    <string name="newtask_detail">Note</string>
+    <string name="newtask_priority">Priority</string>
+    <string name="newtask_duedate">Do Date</string>
+
+    <string name="newtask_title_hint">Enter Task</string>
+    <string name="newtask_detail_hint">Enter Task Note</string>
+    <string name="newtask_priority_hint">Enter Task Priority</string>
+
+
+
+    <!--NEW TASK FORM-->
+    <string name="edittask_title">Task</string>
+    <string name="edittask_detail">Note</string>
+    <string name="edittask_priority">Priority</string>
+    <string name="edittask_duedate">Do Date</string>
+    <string name="edittask_status">Status</string>
+
+
+    <!--Button-->
+    <string name="Create">Create</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Titles-->
+    <string name="edit_task">Edit Task</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="add_task">Add Task</string>
+
+    <!--Messages-->
+    <string name="status_to_do">TO-DO</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm_cancel">Are you sure you want to cancel editing this task?</string>
+    <string name="clear">Clear</string>
+
+
+
+    <string-array name="priority_level_array">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+    </string-array>
+</resources>

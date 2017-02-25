@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@android:color/white">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:text="@string/newtask_title"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/colorlblnewtaskform"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="viewEnd"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/tv_title_dt"
+                android:hint="@string/newtask_title_hint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/coloretnewtaskform"
+                android:ems="10"
+                android:gravity="left"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_weight="0.8"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/colorAccent" />
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/newtask_duedate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:layout_marginRight="5dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorlblnewtaskform"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:gravity="center_vertical"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/tv_duedate_dt"
+                android:hint="@string/newtask_title_hint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/coloretnewtaskform"
+                android:ems="10"
+                android:gravity="left"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_weight="0.8"/>
+
+
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/colorAccent" />
+
+        <TableRow>
+            <TextView
+                android:text="@string/newtask_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/colorlblnewtaskform"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewEnd"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/tv_Detail_dt"
+                android:hint="@string/newtask_detail_hint"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:paddingBottom="20dp"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:paddingTop="20dp"
+                android:layout_width="0dp"
+                android:textColor="@color/coloretnewtaskform"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.8"
+                android:selectAllOnFocus="false"
+                android:layout_height="150dp" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="@color/colorAccent" />
+
+        <TableRow>
+            <TextView
+                android:text="@string/newtask_priority"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/colorlblnewtaskform"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewEnd"
+                android:gravity="center_vertical" />
+
+            <Spinner
+                android:id="@+id/tv_priority_dt"
+                android:hint="@string/newtask_priority_hint"
+                android:layout_gravity="left"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:entries="@array/priority_level_array"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/coloretnewtaskform"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.8"
+                android:clickable="false" />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fizzytheme" parent="android:Theme" >
+        <item name="android:colorAccent">@color/colorlistviewtext</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorForeground">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorlistviewtext</item>
+        <item name="android:textColorSecondary">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="FizzyListTheme" parent="AppTheme">
+        <item name="android:colorBackground">@android:color/tab_indicator_text</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:statusBarColor">@android:color/tab_indicator_text</item>
+        <item name="android:navigationBarColor">@color/primary_text_material_light</item>
+        <item name="android:colorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+    </style>
+</resources>

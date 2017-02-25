@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="FizzyListTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="FizzyListTheme" parent="AppTheme" >
+        <item name="android:colorBackground">@android:color/tab_indicator_text</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+    </style>
+
+    <style name="fizzytheme1" parent="android:Theme.Material.Light.DarkActionBar" >
+        <item name="android:colorPrimary">@color/coloretnewtaskform</item>
+        <item name="android:colorAccent">@color/colorlistviewtext</item>
+        <item name="android:textColorPrimary">@color/colortaskdone</item>
+        <item name="android:textColorSecondary">@color/colorlistviewtext</item>
+        <item name="android:textColorPrimaryInverse">@color/colortaskdone</item>
+        <item name="android:textColorSecondaryInverse">@color/colortaskdone</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorPrimaryDark">@color/colorlistviewtext</item>
+        <item name="android:displayOptions">showHome|useLogo</item>
+    </style>
+
+
+
+</resources>
