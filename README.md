@@ -5,7 +5,7 @@ Fizzy List is an android app that allows building a todo list and basic todo ite
 
 Submitted by: Farzad Zamani
 
-Time spent: 20 hours spent in total
+Time spent: 28 hours spent in total
 
 ### The following **required** functionality is completed:
 
@@ -40,9 +40,7 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
 
-Describe any challenges encountered while building the app.
 
 ## License
 
